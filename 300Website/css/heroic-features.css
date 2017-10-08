@@ -13,6 +13,23 @@ body {
         padding-top: 56px;
     }
 }
+.jumbotron{
+	padding-top: 0px;
+	margin: 0px;
+}
+
+.jumbotron.my-4{
+	margin-top: 0px;
+}
+
+.jumbotron.top{
+	padding-bottom: 0px;
+	background-color: white;
+	text-align: center;
+	font-family: helvetica;
+	font-size: 50px;
+	color: red;
+}
 
 .card {
     height: 100%;
@@ -22,6 +39,11 @@ body {
 	background-color: red;
 }
 
+.slogan{
+	color: white;
+	text-align: center;
+	font-family: italic;
+}
 
 
 .progress-bar{
@@ -38,6 +60,7 @@ body {
 }
 
 #custom-search-input{
+	margin-top: 20px;
     padding: 3px;
     border: solid 1px #E4E4E4;
     border-radius: 6px;
